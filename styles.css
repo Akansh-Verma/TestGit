@@ -1,0 +1,306 @@
+body
+{
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    
+}
+/* 
+.animated {
+    width: 300px;
+    height: 175px;
+    background: url(https://images.creativemarket.com/0.1.0/ps/2286196/1160/774/m1/fpnw/wm1/1606_bakery-1screen-.jpg?1487247061&s=ff097fe2d02b08211d6e609827f5fa51) no-repeat left center #e4eacf;
+    background-size: 75%;
+    -webkit-animation: test 4s infinite; /* Chrome, Safari, Opera */
+    /*animation: test 4s infinite;
+} 
+
+/* Chrome, Safari, Opera */
+/* @-webkit-keyframes test {
+    50% {background-position: right center;}
+}
+/* Standard syntax */
+/* @keyframes test {
+    50% {background-position: right center;}
+} */ 
+
+.statement
+{
+    text-align: center;
+    color: white;
+}
+
+.product
+{
+    color: navajowhite;
+    align-self:auto;
+}
+
+.product {
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 50px; /* if you want space between the images */
+  }
+
+.product img
+{
+  width: 100%;
+  height: auto;
+}
+
+.team img
+{
+  width: 100%;
+  height: auto;
+}
+
+h2
+{
+    color: bisque;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  /* vertical-align: baseline; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: auto;
+  display: block;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.jumbotron
+{
+  background-color: transparent;
+}
+
+.team
+{
+    color: navajowhite;
+    align-self:auto;
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 50px; /* if you want space between the images */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.active {
+  
+  color: black;
+}
+
+.navbar-custom {
+  background-color: transparent;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: lightblue;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+#cf6_image {
+  margin:0 auto;
+  width:450px;
+  height:281px;
+  transition: background-image 1s ease-in-out;
+  background-image:url(https://cdn.pixabay.com/photo/2016/05/10/21/50/meditation-1384758_960_720.jpg);
+}
+
+#cf6_image:hover {
+  background-image:url(https://cdn.pixabay.com/photo/2020/04/21/18/49/tropical-5074304_960_720.jpg);
+}
+
+.statement
+{
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/11/23/27/woman-936549_960_720.jpg);
+}
+
+fieldset {
+	width: 300px;
+	margin: 25px 0 0 50px;
+	border: 1px solid #999999;
+	box-shadow: 1px 1px #cccccc;
+	padding: 10px;
+}
+
+label {
+	float: left;
+	width: 140px;
+	display: block;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+button {
+	margin-left: 150px;
+}
+
+input {
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+	width: 128px;
+}
+
+#bmi_label {
+	width: 200px;
+}
+
+#bmi {
+	width: 66px;
+}
+
+#intro {
+	width: 300px;
+	margin: 25px 0 0 50px;
+	padding: 10px;
+	border: 1px solid #999999;
+	box-shadow: 1px 1px #cccccc;
+}
